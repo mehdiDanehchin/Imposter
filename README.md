@@ -139,8 +139,7 @@ included) — configure signing in `app/build.gradle.kts` before distributing.
 | | | |
 |:---:|:---:|:---:|
 | ![Home / Setup](screenshots/1.png) | ![Player cards](screenshots/2.png) | ![Card flip](screenshots/3.png) |
-| ![Citizen card](screenshots/4.png) | ![Imposter card](screenshots/5.png) | ![Discussion start](screenshots/6.png) |
-| ![Rules](screenshots/7.png) | | |
+| ![Citizen card](screenshots/4.png) | | |
 
 ## Developer
 

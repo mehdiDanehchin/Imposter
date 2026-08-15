@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Imposter" parent="android:Theme.Material.Light.NoActionBar">
+    </style>
+
+    <style name="Theme.Imposter" parent="Base.Theme.Imposter" />
+
+    <!-- Splash attrs are API 31 framework attrs; on older APIs the
+         androidx.core splashscreen compat handles the starting window. -->
+    <style name="Theme.Imposter.Splash" parent="Theme.Imposter" tools:targetApi="31">
+        <item name="android:windowSplashScreenBackground">@android:color/black</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Imposter</item>
+    </style>
+</resources>
